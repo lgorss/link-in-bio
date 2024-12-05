@@ -2,30 +2,49 @@
 <html>
   <meta charset="UTF-8">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>link-in-bio</title>
   </head>
   <style>
     * {
+      min-height: 100%;
       border: 1px brown dashed;
     }
   </style>
   <style>
     body {
+      min-height: 100%;
       padding-top: 40px;
       padding-bottom: 40px;
-      background: linear-gradient(180deg, #1f005c, #5b0050, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+      background: radial-gradient(circle at 100% 0%, #a0d9f2, #8dded2, #9ddda7, #c0d57f, #e3c978, #fcbb9e, #ffb0d2, #f7b0ff); /* made at https://learnui.design/tools/gradient-generator.html */;
+      color: rgba(red, green, blue, alpha);
       .avatar-image {
         width: 128px;
         height: 128px;
         object-fit: cover;
         border-radius: 128px;
-        border: 2rem solid greenyellow;
+        margin-bottom: 20px;
       }
       .other-pics {
         width: 48px;
         height: 48px;
         border-radius: 48px;
         object-fit: cover;
+        margin-bottom: 10px;
+      }
+      .item {
+        background-color: rgba(149, 123, 173, 0.5);
+        margin-bottom: 10px;
+      }
+      .main-conteiner {
+        width: 640px;
+        margin: auto;
+        text-align: center;
+        .social-media-icons {
+          display: flex;
+          justify-content: space-around;
+        }
+
       }
     }
   </style>
@@ -44,13 +63,13 @@
      <a href="https://www.facebook.com/valentyna.shaltaieva" target="_blank">Facebook</a>
   </div>
 
-  <div class="links-row">
+
     <div class="item">
     <img class="other-pics" src="pictures/POL_Warszawa_COA.svg.png" alt="coat_of_arms Warsaw">
     <a target="_blank" href="https://en.wikipedia.org/wiki/Warsaw">Warsaw</a>
   </div>
-  </div>
-</div>
+
+
   <div class="item">
     <img class="other-pics" src="pictures/Accenture-Logo.png" alt="Accenture-Logo">
     <a href="https://www.accenture.com/us-en" target="_blank"> Accenture</a>
@@ -60,5 +79,6 @@
     <img class="other-pics" src="pictures/Collegium_Civitas_logo.png" alt="Collegium_Civitas_logo">
     <a href="https://civitas.edu.pl/en/" target="_blank"> Civitas</a>
   </div>
+</div>
   </body>
 </html>
