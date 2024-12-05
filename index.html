@@ -9,16 +9,34 @@
       border: 1px brown dashed;
     }
   </style>
+  <style>
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(180deg, #1f005c, #5b0050, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+        border: 2rem solid greenyellow;
+      }
+      .other-pics {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+    }
+  </style>
   <body>
 <div class="main-conteiner">
   <div class="image-row">
-    <img src="pictures/profile_pic.jpg" alt="Valentyna Shaltaieva"
-    width="200" 
-    height="230">
+    <img class="avatar-image" src="pictures/profile_pic.jpg" alt="Valentyna Shaltaieva">
   </div>
 
   <div class="name-row">
-    <p>Valentyna Shaltaieva</p>
+    <h1>Valentyna Shaltaieva</h1>
   </div>
 
   <div class="social-media-icons">
@@ -28,24 +46,18 @@
 
   <div class="links-row">
     <div class="item">
-    <img src="pictures/POL_Warszawa_COA.svg.png" alt="coat_of_arms Warsaw"
-    width="50"
-    height="50">
+    <img class="other-pics" src="pictures/POL_Warszawa_COA.svg.png" alt="coat_of_arms Warsaw">
     <a target="_blank" href="https://en.wikipedia.org/wiki/Warsaw">Warsaw</a>
   </div>
   </div>
 </div>
   <div class="item">
-    <img src="pictures/Accenture-Logo.png" alt="Accenture-Logo"
-    width="50"
-    height="50">
+    <img class="other-pics" src="pictures/Accenture-Logo.png" alt="Accenture-Logo">
     <a href="https://www.accenture.com/us-en" target="_blank"> Accenture</a>
   </div>
 
   <div class="item">
-    <img src="pictures/Collegium_Civitas_logo.png" alt="Collegium_Civitas_logo"
-    width="50"
-    height="50">
+    <img class="other-pics" src="pictures/Collegium_Civitas_logo.png" alt="Collegium_Civitas_logo">
     <a href="https://civitas.edu.pl/en/" target="_blank"> Civitas</a>
   </div>
   </body>
