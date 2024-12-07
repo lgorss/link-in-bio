@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <title>Link-in-bio</title>
     <style>
+      html {
+        min-height: 100%;
+      }
       * {
         border: 1px red dashed;
       }
 
       body {
+        min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;  
+        background: conic-gradient(from 180deg at 50% 120%, #e85907, #eb5638, #f83fa4, #a87cff, #00c477, #b8b500, #daac00, #deab02);
+        color: rgba(red, green, blue, alpha);
+      }
+
+      a {
+        color: rgba(rgb(120, 52, 52), rgb(117, 184, 139), rgb(26, 26, 48), alpha);
       }
 
       .avatar-image {
@@ -26,6 +36,10 @@
         border-radius: 48px;
         object-fit: cover;
       }
+
+      .item {
+        background-color: rgba(149, 123, 173, 0.5);
+      }
     </style>
   </head>
   <body>
@@ -36,7 +50,7 @@
       </div>
 
       <div class="name-row">
-        Kitten, The Web Developer and my 10 friends
+        Kitten, The Web Developer and his 10 friends
       </div>
 
       <div class="social-icons-row">
