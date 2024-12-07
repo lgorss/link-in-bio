@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Link-in-bio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
       html {
         min-height: 100%;
@@ -18,17 +23,19 @@
         padding-bottom: 40px;  
         background: conic-gradient(from 180deg at 50% 120%, #e85907, #eb5638, #f83fa4, #a87cff, #00c477, #b8b500, #daac00, #deab02);
         color: rgba(red, green, blue, alpha);
+        font-family: "Raleway"
       }
 
       a {
         color: rgba(rgb(120, 52, 52), rgb(117, 184, 139), rgb(26, 26, 48), alpha);
+        text-decoration: none;
       }
 
       .avatar-image {
-        width: 128px;
-        height: 128px;
+        width: 150px;
+        height: 150px;
         object-fit: cover;
-        border-radius: 128px;
+        border-radius: 20px;
       }
 
       .thumbnail {
@@ -58,6 +65,9 @@
       .name-row {
         margin-bottom: 30px;
         text-align: center;
+        font-family: "Playfair Display"
+        font-size: 24px;
+        font-weight: 900;
       }
 
       .social-icons-row {
